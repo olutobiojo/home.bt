@@ -1,0 +1,8 @@
+/**
+ * This CSS works together with footer-adjuster.js
+ * This css file must be called AFTER the main responsive-footer.css
+ */
+
+#bt-footer {
+    visibility: hidden;
+}

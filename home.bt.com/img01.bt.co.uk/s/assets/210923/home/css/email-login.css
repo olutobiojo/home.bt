@@ -1,0 +1,888 @@
+/* Dante-5308 start */
+
+@font-face {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    src: url(../fonts/bt/fontawesome-webfont.eot);
+    src: url("../fonts/bt/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url(../fonts/bt/fontawesome-webfont.ttf), url(../fonts/bt/FontAwesome.otf), url(../fonts/bt/fontawesome-webfont.svg), url(../fonts/bt/fontawesome-webfont.ttf), url(../fonts/bt/fontawesome-webfont.woff), url(../fonts/bt/fontawesome-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BT Curve';
+    font-weight: normal;
+    src: url("../fonts/BT-Curve/BTCurve_Bd.ttf?#iefix") format("embedded-opentype"), url(../fonts/BT-Curve/BTCurve_BdIt.ttf), url(../fonts/BT-Curve/FontAwesome.otf), url(../fonts/BT-Curve/BTCurve_Headline.ttf), url(../fonts/BT-Curve/BTCurve_HeadlineIt.ttf), url(../fonts/BT-Curve/BTCurve_It.ttf), url(../fonts/BT-Curve/BTCurve_Rg.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BT Curve Headline";
+    src: url("../fonts/bt/BT-Curve/BTCurve_Headline.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "BT Curve Regular";
+    src: url("../fonts/bt/BT-Curve/BTCurve_Rg.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BT Curve Italic";
+    src: url("../fonts/BT-Curve/BTCurve_It.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BT Curve Bold Italic";
+    src: url("../fonts/BT-Curve/BTCurve_BdIt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BT Curve Bold";
+    src: url("../fonts/BT-Curve/BTCurve_It.ttf") format("truetype");
+}
+
+#emailLogin .email-login-wrapper {
+    font-family: "BTFont Regular";
+    color: #333333;
+    font-size: 14px;
+    background-color: #ededed;
+    padding: 20px;
+}
+
+#emailLogin .email-login-wrapper label {
+    font-family: "BTFont Bold", sans-serif;
+    font-weight: normal;
+}
+
+#emailLogin .email-login-wrapper a {
+    color: #5514b4;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#emailLogin .email-login-wrapper h1 {
+    font-family: "BTFont Light", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: -2px;
+}
+
+#emailLogin .email-show-right,
+#emailLogin .checkbox-align-right {
+    float: right;
+}
+
+#emailLogin .checkbox-align-right {
+    width: 44%;
+}
+
+#emailLogin .email-logged-right {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    padding-left: 0;
+    cursor: default;
+}
+
+#emailLogin .email-forgotpwd a,
+#emailLogin .email-show-right a {
+    font-family: "BTFont Regular";
+    font-weight: normal;
+}
+
+#emailLogin .mpu-ads-wrapper {
+    margin: 10px auto 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#emailLogin .email-btn-primary {
+    color: #fff;
+    background-color: #5514b4;
+    border-color: #5514b4;
+    height: 40px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+#emailLogin .email-btn-secondary {
+    color: #6200a8;
+    background-color: #ffffff;
+    border-color: #6200a8;
+    float: right;
+}
+
+#emailLogin .email-helplinks .helplink {
+    border-right: 1px solid #666;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+#emailLogin .email-MPUmessage {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin: 20px 0 15px;
+}
+
+#emailLogin .email-MPUmessage h4 {
+    margin: 15px 0 10px;
+}
+
+#emailLogin .email-text-left {
+    float: left;
+    margin-right: 20px;
+}
+
+#emailLogin .sec-btn-group {
+    line-height: 36px;
+    height: 36px;
+    color: #6200a8;
+}
+
+#emailLogin .primary-btn-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#emailLogin .clearfix:after {
+    clear: both;
+}
+
+#emailLogin .clearfix:before,
+#emailLogin .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+#emailLogin .email-signin-wrapper {
+    margin-top: -7px;
+    margin-bottom: 10px;
+}
+
+#emailLogin .submit-warning {
+    color: #333;
+    background-color: #fc0;
+}
+
+#emailLogin .submit-green {
+    color: #fff;
+    background-color: #00874d;
+}
+
+#emailLogin .submit-error {
+    color: #fff;
+    background-color: #de332a;
+}
+
+#emailLogin .main-amber .submit-error {
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #de332a;
+}
+
+#emailLogin .main-amber .error-header {
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+#emailLogin .main-amber .error-text-wrapper {
+    padding-left: 10px;
+    padding-right: 0;
+    display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+}
+
+#emailLogin .main-amber .submit-warning,
+#emailLogin .main-amber .submit-green,
+#emailLogin .main-amber .submit-error {
+    margin-bottom: 15px;
+    padding: 10px 20px 10px 10px;
+    float: left;
+    width: 100%;
+    font-family: "BTFont Regular";
+}
+
+#emailLogin .yellow-image,
+#emailLogin .green-image {
+    width: 42px;
+    height: 42px;
+    margin-top: 3px;
+}
+
+#emailLogin .red-image {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+#emailLogin .red-image {
+    background: url(../images/exclamtion-icon.png) no-repeat top;
+}
+
+#emailLogin .yellow-image {
+    background: url(../images/amber_alert_black_down_small.png) no-repeat top;
+}
+
+#emailLogin .green-image {
+    background: url(../images/green_tick_white_small.png) no-repeat center;
+    margin-top: 0;
+}
+
+#emailLogin .tv-article .hero .container {
+    padding: 0px 10px;
+    /*extra css for section */
+}
+
+#emailLogin .sign-btn-wrapper {
+    margin: 10px 0 15px;
+    display: flow-root;
+}
+
+#emailLogin .form-control {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857;
+    color: #666666;
+    font-family: "BTFont", sans-serif;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+#emailLogin .checkbox-wrapper .signin-align {
+    float: left;
+}
+
+#emailLogin .checkbox {
+    padding-left: 20px;
+    margin-top: 5px;
+    float: right;
+}
+
+#emailLogin .checkbox label::before {
+    content: "";
+    font-family: "FontAwesome";
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #ffffff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+#emailLogin .checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    margin-left: 0px;
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+#emailLogin .checkbox input[type="checkbox"] {
+    opacity: 0;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 0;
+}
+
+#emailLogin .checkbox input[type="checkbox"]:checked+label::after {
+    font-family: "FontAwesome";
+    content: "\f00c";
+}
+
+#emailLogin .checkbox.checkbox-circle label::before {
+    border-radius: 50%;
+}
+
+#emailLogin .checkbox.checkbox-inline {
+    margin-top: 0;
+}
+
+#emailLogin input[type="checkbox"].styled:checked+label:after {
+    font-family: "FontAwesome";
+    content: "\f00c";
+}
+
+#emailLogin .sign-btn-align {
+    float: left;
+    width: 54%;
+}
+
+#emailLogin .search-left {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#emailLogin #homepage-search {
+    padding-bottom: 0;
+}
+
+#emailLogin #homepage-search .search-options a:first-child {
+    border-right: none;
+    cursor: default;
+}
+
+#emailLogin #homepage-search .search-options {
+    height: 0;
+}
+
+#emailLogin .fullskin-active {
+    height: 1084px;
+    margin-top: 0;
+    background-color: #dddddd;
+}
+
+#emailLogin .fullskin-active .search-left {
+    margin-top: 5px;
+}
+
+#emailLogin .container.fullskinad {
+    pointer-events: none;
+}
+
+#emailLogin .fullskin,
+#emailLogin .bg-fullskin {
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+    margin: 0 auto 0 -729px;
+    top: 180px;
+    left: 50%;
+}
+
+#emailLogin .fullskin img {
+    width: 100%;
+}
+
+#emailLogin .fullskin-active .email-signin-wrapper {
+    margin-top: 0px;
+}
+
+#emailLogin a.email-btn-secondary {
+    text-decoration: none;
+}
+
+#emailLogin .loadFont {
+    font-family: "FontAwesome";
+}
+
+#emailLogin .errorbox {
+    background: #fce4e6 !important;
+    border: 1px solid #f00 !important;
+}
+
+#emailLogin .loginerror {
+    font-size: .875em;
+    border: 1px solid red;
+    height: auto;
+    padding: 15px 10px 15px 52px;
+    background: #fff url(../images/error.png) no-repeat 10px 15px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#emailLogin .generic-error,
+#emailLogin .lock-error {
+    display: none;
+    float: left;
+}
+
+#emailLogin .rhr-modules-order {
+    margin: 10px -8px 0;
+    float: left;
+}
+
+@media screen and (max-width: 767px) {
+    #emailLogin .main-amber .submit-green,
+    #emailLogin .main-amber .submit-error,
+    #emailLogin .main-amber .submit-warning {
+        width: 100%;
+        padding: 10px;
+    }
+    #emailLogin .main-amber .error-text-wrapper {
+        padding-right: 20px;
+    }
+    #emailLogin .email-login-wrapper {
+        margin: 0 10px 0;
+        float: none;
+    }
+    #emailLogin .generic-error,
+    #emailLogin .lock-error {
+        width: auto;
+        margin: 0 10px 20px;
+    }
+    #emailLogin .email-signin-wrapper .main-amber {
+        margin: 0 10px;
+    }
+    #emailLogin .mpu-ads-align,
+    #emailLogin .mpu-ads-align-img {
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #emailLogin .fullskin {
+        display: none;
+    }
+    #emailLogin .fullskin-active {
+        height: auto;
+        background-color: transparent;
+    }
+    #emailLogin .sign-btn-align {
+        width: 48%;
+    }
+    #emailLogin .checkbox-align-right {
+        width: 50%;
+    }
+    #emailLogin .rhr-modules-order {
+        margin: auto;
+        padding: 0 10px;
+        float: left;
+        width: 100%;
+    }
+    #emailLogin .lhr-modules-order {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #emailLogin .email-login-wrapper {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #emailLogin #homepage-search .search-bar #search-text {
+        width: 76.5%;
+    }
+    #emailLogin .mpu-ads-wrapper img {
+        width: 303px;
+        height: 604px;
+    }
+    #emailLogin .mpu-ads-align {
+        text-align: -webkit-right;
+    }
+    #emailLogin .main-amber .submit-warning,
+    #emailLogin .main-amber .submit-green,
+    #emailLogin .main-amber .submit-error {
+        padding: 10px 20px 10px 10px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #emailLogin .email-login-wrapper {
+        width: 97%;
+        margin: auto auto 20px;
+    }
+    #emailLogin .generic-error,
+    #emailLogin .lock-error {
+        width: 96%;
+        margin: 0 15px 15px;
+    }
+    #emailLogin .email-signin-wrapper {
+        margin-top: -7px;
+    }
+    #emailLogin .email-signin-wrapper .main-amber {
+        margin: 0 15px;
+    }
+    #emailLogin .fullskin {
+        display: none;
+    }
+    #emailLogin .fullskin-active {
+        height: auto;
+        background-color: transparent;
+    }
+    #emailLogin .exclamation-icon {
+        margin-top: 10px;
+    }
+    #emailLogin .sign-btn-align {
+        width: 76%;
+    }
+    #emailLogin .checkbox-align-right {
+        width: 23%;
+    }
+    #emailLogin .rhr-modules-order {
+        margin: auto;
+        float: left;
+        padding: 0 10px 0 8px;
+        width: 50%;
+    }
+    #emailLogin .mpu-ads-align,
+    #emailLogin .mpu-ads-align-img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #emailLogin .fullskin,
+    #emailLogin .fullskin img {
+        width: 1240px;
+    }
+    #emailLogin #homepage-search .search-bar #search-text {
+        width: 77%;
+    }
+    #emailLogin .sign-btn-align {
+        width: 48%;
+    }
+    #emailLogin .checkbox-align-right {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1024px) and (orientation: portrait) {
+    #emailLogin .email-login-wrapper,
+    #emailLogin .generic-error,
+    #emailLogin .lock-error {
+        width: 96%;
+        margin: 0 6px 15px;
+    }
+    #emailLogin .email-signin-wrapper .main-amber {
+        margin: 0 8px;
+    }
+    #emailLogin .sign-btn-align {
+        width: 45%;
+    }
+    #emailLogin .checkbox-align-right {
+        width: 51%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) and (orientation: portrait) {
+    #emailLogin .sign-btn-align {
+        width: 40%;
+    }
+    #emailLogin .checkbox-align-right {
+        width: 57%;
+    }
+}
+
+/* Dante-5308 fix ends */
+
+/* Dante-5672 "overlay message" css starts*/
+
+#emailLogin #myModal-overlay .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#emailLogin #myModal-overlay .modal-content {
+    text-align: center;
+    color: #000000;
+    font-family: BTTV_Rg;
+    font-weight: normal;
+    line-height: 1.462em;
+    font-size: 14px;
+    padding: 20px 20px 20px;
+    margin: 0 auto;
+    box-shadow: none;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#emailLogin #myModal-overlay .modal-title-bold {
+    font-weight: normal;
+    font-family: 'BTFont Light', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+#emailLogin #myModal-overlay .modal-header {
+    padding: 0 0 20px;
+    border-bottom: none;
+    text-align: left;
+}
+
+#emailLogin #myModal-overlay .modal-body {
+    position: relative;
+    padding: 0;
+}
+
+#emailLogin #myModal-overlay .modal-content button.btn.btn-default {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 1px 20px;
+    font-size: 16px;
+    line-height: 1.42857;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    height: 40px;
+    min-width: 80px;
+    padding: 1px 20px;
+    background: #6400aa;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+#emailLogin .modal-content .btn-default:hover {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+#emailLogin #myModal-overlay .modal-content .container-overlay {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: normal;
+    line-height: 15px;
+}
+
+#emailLogin .modal-content .container-overlay input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#emailLogin #myModal-overlay .modal-content .container-overlay .checkmark {
+    position: absolute;
+    top: -12px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+#emailLogin #myModal-overlay .modal-content .container-overlay .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#emailLogin #myModal-overlay .modal-content .container-overlay input:checked~.checkmark:after {
+    display: block;
+}
+
+#emailLogin #myModal-overlay .modal-content .container-overlay .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#emailLogin #myModal-overlay .modal-content .chkbox-outer {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#emailLogin #myModal-overlay .modal-content .check-overlay {
+    width: 22px;
+    float: left;
+}
+
+#emailLogin #myModal-overlay .modal-content .checkbox-txt {
+    float: left;
+}
+
+#emailLogin #myModal-overlay .btn-default:focus,
+.btn-default.focus {
+    background-color: #fff;
+}
+
+#emailLogin #myModal-overlay .btn:focus,
+#emailLogin #myModal-overlay .btn.focus,
+#emailLogin #myModal-overlay .btn:active:focus,
+#emailLogin #myModal-overlay .btn:active.focus,
+#emailLogin #myModal-overlay .btn.active:focus,
+#emailLogin #myModal-overlay .btn.active.focus,
+.btn-default:active,
+.btn-default.active,
+.open>.btn-default.dropdown-toggle,
+.btn:active,
+.btn.active {
+    outline: none;
+    outline-offset: 0;
+    background-color: inherit;
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#emailLogin #myModal-overlay .modal-content p {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+#emailLogin #myModal-overlay .modal-content p.btn-align {
+    text-align: center;
+}
+
+/* Internet Explorer 10+ */
+
+_:-ms-lang(x),
+#emailLogin #myModal-overlay .modal-content .container-overlay input:checked~.checkmark:after {
+    border-left-color: #fff;
+}
+
+.overlay-hide {
+    display: none !important;
+}
+
+/* Dante-5672 "overlay message" css ends*/
+
+/* Dante-5671 "overlay message" css starts*/
+
+#emailLogin #myModal-overlay.modal {
+    overflow: scroll;
+}
+
+/* Dante-5671 "overlay message" css ends*/
+
+@media (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+    #emailLogin #myModal-overlay {
+        overflow: scroll;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    #emailLogin #myModal-overlay {
+        overflow: scroll;
+    }
+}
+
+/* 5893 - SAML overlay starts */
+
+#emailLogin #myModal-overlay.modal .header-text {
+    Font-family: BTFont bold;
+    Font-size: 20px;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-header {
+    Font-family: BTFont bold;
+    Font-size: 16px;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-body {
+    font-family: BTTV_Rg;
+    Font-size: 15px;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-body a {
+    text-decoration: underline;
+    color: #6400AA;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-logo {
+    Text-align: left;
+    Margin-bottom: 15px;
+}
+
+#emailLogin #myModal-overlay .modal-content {
+    /* width: 598px!important;*/
+    width: 100% !important;
+    Text-align: left;
+    border-radius: 0;
+    min-height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .overlay-body br {
+        display: none;
+    }
+}
+
+#emailLogin #myModal-overlay .modal-dialog-centered {
+    width: auto;
+    margin: 0;
+    align-items: start;
+    /*min-height: calc(100% - (0rem));*/
+    height: 100%;
+}
+
+#emailLogin #myModal-overlay.modal {
+    padding-right: 0 !important;
+    overflow: auto;
+    display: block;
+}
+
+#emailLogin .overlay-header-main {
+    Font-family: BTFont bold;
+    Font-size: 20px;
+    line-height: 25px;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-header {
+    Font-family: BTFont bold;
+    Font-size: 20px;
+    color: #6400aa;
+    margin-bottom: 10px;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-body {
+    font-family: "BTFont", sans-serif;
+    Font-size: 16px;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-body a {
+    text-decoration: underline;
+    color: #337ab7;
+}
+
+#emailLogin #myModal-overlay.modal .overlay-margin10 {
+    margin-bottom: 10px;
+}
+
+/* 5893 - SAML overlay ends */
